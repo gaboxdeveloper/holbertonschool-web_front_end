@@ -61,7 +61,7 @@ template{display: none;} /* prettier-ignore */
 	--section-header-padding: 0 0 3rem;
 	--section-body-padding: 0 0 3rem;
 	--section-footer-padding: 3rem 0 0;
-	--section-footer-aling: center;
+	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
 }
 
@@ -108,15 +108,15 @@ a:active {
 	padding: var(--section-padding);
 }
 .section-header {
-	text-align: var(--section-header-align);
 	padding: var(--section-header-padding);
+	text-align: var(--section-header-align);
 }
 .section-body {
 	padding: var(--section-body-padding);
 }
 .section-footer {
 	padding: var(--section-footer-padding);
-	text-align: var(--section-footer-aling);
+	text-align: var(--section-footer-align);
 }
 .section-title {
 	font-family: var(--font-family-title);
