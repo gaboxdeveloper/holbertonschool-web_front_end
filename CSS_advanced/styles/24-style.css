@@ -215,10 +215,9 @@ ul.row {
 .social-link > svg {
 	fill: var(--text-color);
 }
-.car-services .card-title {
+.card-services .card-title {
 	margin: 0;
 }
-
 .card-services a {
 	display: block;
 	padding: 2rem;
